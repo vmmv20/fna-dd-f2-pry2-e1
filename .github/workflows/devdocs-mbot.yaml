@@ -1,4 +1,4 @@
-name: pry1-devdocs
+name: pry2-e1
 on:
   push:
     branches:
@@ -36,7 +36,7 @@ on:
         default: true
 jobs:
   devdocs:
-    name: pry1-e3-devdocs
+    name: pry2-e1-dd
     runs-on: ubuntu-latest
     env:
       GITHUB_PULL_REQUEST_SHA: ${{ github.event.pull_request.head.sha }}
