@@ -72,8 +72,8 @@ jobs:
           echo "COMPILATION_DATE=$(date +'%d %b %Y')" >> $GITHUB_ENV
           echo "PROYECTO=PRY01" >> $GITHUB_ENV
           echo "PROY_DESCR=Gobierno SOA del FNA" >> $GITHUB_ENV
-          echo "PR06_NOMBRE=Modelos actualizados de los ítems de arquitectura impactados por el proyecto" >> $GITHUB_ENV
-          echo "PR07_NOMBRE=Indicadores de Efectividad de Gobierno y Arquitectura" >> $GITHUB_ENV
+          echo "PR11_NOMBRE=Detalle de los recursos, herramientas, roles, responsabilidades y participantes" >> $GITHUB_ENV
+          echo "PR12_NOMBRE=Diseño detallado y vistas funcional, despliegue, información, integración y tecnología​" >> $GITHUB_ENV
 
       - name: Cache
         uses: actions/cache@v3
